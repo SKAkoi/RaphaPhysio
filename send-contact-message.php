@@ -9,7 +9,7 @@ $phnumber = $_POST['phonenumber'];
 $message = $_POST['message'];
 $headers = array(
     'From' => '<kakoi@joomah.com>',
-    'To' => '<'.$visitor_email.'>',
+    'To' => '<kakoi@joomah.com>',
     'Subject' => 'New Form Submission'
 );
 
