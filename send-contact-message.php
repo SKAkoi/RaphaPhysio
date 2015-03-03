@@ -25,7 +25,7 @@ $smtp = Mail::factory('smtp', array(
         'port' => '465',
         'auth' => true,
         'username' => 'kakoi@joomah.com',
-        'password' => 'ardelle1992'
+        'password' => '******'
 ));
 
 $mail = $smtp->send($visitor_email,$headers,$email_body);
