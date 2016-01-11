@@ -8,8 +8,8 @@ $location = $_POST['location'];
 $phnumber = $_POST['phonenumber'];
 $message = $_POST['message'];
 $headers = array(
-    'From' => '<kakoi@joomah.com>',
-    'To' => '<kakoi@joomah.com>',
+    'From' => '<example@mail.com>',
+    'To' => '<sample@mail.com>',
     'Subject' => 'New Form Submission'
 );
 
